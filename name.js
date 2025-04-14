@@ -6,7 +6,4 @@ const names = (firstName, lastName) => {
     return person;
 }
 
-const risultato = names('Gaetano', 'Nicotra')
-console.log(risultato)
-
 module.exports = names;
