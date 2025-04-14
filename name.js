@@ -1,10 +1,5 @@
-const functionName = (a, b) => {
-   const names = {
-    a,
-    b
-   }
-};
+function names(firstName, lastName) {
+return firstName, lastName;
+}
 
-functionName();
-
-module.exports = functionName;
+module.exports = names;
